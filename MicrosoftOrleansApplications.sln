@@ -9,11 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silo.CmdConsole", "Silo.Cmd
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".net-standard", ".net-standard", "{F6D79C83-ABB6-4994-9871-4E41B42210D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainInterfaces", "GrainInterfaces\GrainInterfaces.csproj", "{0DBE5F95-07C2-4B95-BFC9-88445B61E14C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrainInterfaces", "GrainInterfaces\GrainInterfaces.csproj", "{0DBE5F95-07C2-4B95-BFC9-88445B61E14C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grains", "Grains\Grains.csproj", "{A739B3E6-CAB5-4AA7-B327-6B62394631A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grains", "Grains\Grains.csproj", "{A739B3E6-CAB5-4AA7-B327-6B62394631A9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{13C8C415-BB44-4F57-973C-E40DEFEE02DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".net-core-3.1", ".net-core-3.1", "{F95B7295-44E6-4708-987F-7FAB4846D3E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.WebApi", "Client.WebApi\Client.WebApi.csproj", "{EC0D3EF5-EC5C-4440-8458-9914F51911DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,10 @@ Global
 		{13C8C415-BB44-4F57-973C-E40DEFEE02DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13C8C415-BB44-4F57-973C-E40DEFEE02DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13C8C415-BB44-4F57-973C-E40DEFEE02DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC0D3EF5-EC5C-4440-8458-9914F51911DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0D3EF5-EC5C-4440-8458-9914F51911DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0D3EF5-EC5C-4440-8458-9914F51911DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0D3EF5-EC5C-4440-8458-9914F51911DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +54,7 @@ Global
 		{0DBE5F95-07C2-4B95-BFC9-88445B61E14C} = {F6D79C83-ABB6-4994-9871-4E41B42210D2}
 		{A739B3E6-CAB5-4AA7-B327-6B62394631A9} = {F6D79C83-ABB6-4994-9871-4E41B42210D2}
 		{13C8C415-BB44-4F57-973C-E40DEFEE02DD} = {EC7C6B79-982A-4763-996D-02A2C8FB9515}
+		{EC0D3EF5-EC5C-4440-8458-9914F51911DB} = {F95B7295-44E6-4708-987F-7FAB4846D3E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44A32382-0161-4E4F-B682-EEA5D0C4EE0F}
