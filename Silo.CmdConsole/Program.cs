@@ -15,7 +15,7 @@ namespace Silo.CmdConsole
             {
                 options.ClusterId = "orleans-dev-silo-host-#1";
                 options.ServiceId = "orleans-dev-silo-service-#1";
-            }).ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(SendSms).Assembly).WithReferences()).ConfigureLogging(logging => logging.AddConsole());
+            }).ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(SendSms).Assembly).WithReferences()).UseDashboard(_ => { _.Port = 2020; _.Password = "test123"; _.Username = "admin"; _.Host = "*"; _.HostSelf = true; }).ConfigureLogging(logging => logging.AddConsole());
             var host = builder.Build();
             await host.StartAsync();
             return host;
@@ -30,7 +30,7 @@ namespace Silo.CmdConsole
                 await host.StopAsync();
                 return 0;
             }
-            catch(Exception exception)
+            catch (Exception exception)
             {
                 Console.WriteLine(exception);
                 return -1;
