@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainInterfaces", "GrainInt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grains", "Grains\Grains.csproj", "{A739B3E6-CAB5-4AA7-B327-6B62394631A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{13C8C415-BB44-4F57-973C-E40DEFEE02DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{A739B3E6-CAB5-4AA7-B327-6B62394631A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A739B3E6-CAB5-4AA7-B327-6B62394631A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A739B3E6-CAB5-4AA7-B327-6B62394631A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C8C415-BB44-4F57-973C-E40DEFEE02DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C8C415-BB44-4F57-973C-E40DEFEE02DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C8C415-BB44-4F57-973C-E40DEFEE02DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C8C415-BB44-4F57-973C-E40DEFEE02DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{BD13E0CA-C796-4A86-A339-02771465998F} = {EC7C6B79-982A-4763-996D-02A2C8FB9515}
 		{0DBE5F95-07C2-4B95-BFC9-88445B61E14C} = {F6D79C83-ABB6-4994-9871-4E41B42210D2}
 		{A739B3E6-CAB5-4AA7-B327-6B62394631A9} = {F6D79C83-ABB6-4994-9871-4E41B42210D2}
+		{13C8C415-BB44-4F57-973C-E40DEFEE02DD} = {EC7C6B79-982A-4763-996D-02A2C8FB9515}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44A32382-0161-4E4F-B682-EEA5D0C4EE0F}
