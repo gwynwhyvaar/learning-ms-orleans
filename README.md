@@ -1,4 +1,4 @@
-# learning Microsoft Orleans
+# Learning Microsoft Orleans
 I am learning to use Microsoft Orleans, this is a repository of some code and applications I'll be using along the way!
 
 Tutirials Used:
